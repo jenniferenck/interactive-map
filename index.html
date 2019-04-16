@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <!-- Load d3.js -->
-    <script src="https://d3js.org/d3.v5.js"></script>
+    <!-- Newer version to update to: <script src="https://d3js.org/d3.v5.js"></script> -->
+    <script src="http://d3js.org/d3.v4.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +15,6 @@
     <!-- Create an element where the map will take place -->
     <svg id="my_dataviz" width="650" height="450"></svg>
     <script>
-      // Starter example from this site: https://www.d3-graph-gallery.com/graph/choropleth_basic.html
       
       // The svg
       var svg = d3.select('svg'),
